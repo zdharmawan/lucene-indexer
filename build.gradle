@@ -8,5 +8,7 @@ repositories {
 dependencies {
     compile 'org.apache.lucene:lucene-core:4.8.1'
     compile 'org.apache.lucene:lucene-analyzers-common:4.8.1'
-    compile ''
+    compile 'ch.qos.logback:logback-classic:1.1.2'
+    compile 'org.slf4j:slf4j-api:1.7.7'
+    compile 'org.slf4j:jcl-over-slf4j:1.7.7'
 }
