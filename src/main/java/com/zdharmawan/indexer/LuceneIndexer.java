@@ -14,7 +14,7 @@ import org.slf4j.LoggerFactory;
 
 public class LuceneIndexer {
 
-    private static final String pathToIndex = "";
+    private static final String pathToIndex = "data";
     private static final Logger logger = LoggerFactory.getLogger(LuceneIndexer.class);
     
     public boolean openIndex() {
